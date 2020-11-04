@@ -1,11 +1,11 @@
 <template>
   <v-container fluid class="pt-0">
     <v-row class="logo" justify="center">
-      <v-col class="pt-0" cols="1"></v-spacer></v-col>
+      <v-col class="pt-0" cols="1"><v-spacer></v-spacer></v-col>
       <v-col class="pt-0" cols="10">
         <v-img src="/YORU.png" max-height="134px" />
       </v-col>
-      <v-col class="pt-0" cols="1"></v-spacer></v-col>
+      <v-col class="pt-0" cols="1"><v-spacer></v-spacer></v-col>
     </v-row>
     <v-row justify="center">
       <h2>Sign in</h2>
