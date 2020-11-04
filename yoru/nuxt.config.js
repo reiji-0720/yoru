@@ -36,8 +36,13 @@ export default {
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-  ],
+  modules: [['nuxt-webfontloader']],
+  webfontloader: {
+    google: {
+      families:['roboto']
+    }
+  },
+
 
   // Vuetify module configuration (https://go.nuxtjs.dev/config-vuetify)
   vuetify: {
@@ -53,6 +58,9 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
+        },
+        light:{
+          background: "#1F2E35"
         }
       }
     }
