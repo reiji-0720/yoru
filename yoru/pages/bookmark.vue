@@ -20,7 +20,7 @@
 
     <v-row>
       <v-col class="pb-0" cols="1"><v-spacer></v-spacer></v-col>
-      <v-col class="pl-0 pb-0" cols="8"><h1>Home</h1></v-col>
+      <v-col class="pl-0 pb-0" cols="8"><h1>Bookmark</h1></v-col>
       <v-col class="px-0 pb-0" cols="1" align-self="end">
         <v-menu
           transition="fade-transition"
